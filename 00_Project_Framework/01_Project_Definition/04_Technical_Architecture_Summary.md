@@ -34,7 +34,7 @@ graph TD
     end
 
     subgraph External Services
-        Q[Identity & Attestation Layer Provider] -- Auth/VCs --> F;
+        Q["Credentialing Function SDK" <br> (External Repository)] -- Auth/VCs --> F;
         R[Blockchain Network] -- Transactions --> M;
     end
 
@@ -77,7 +77,7 @@ graph TD
 ### 1. Authentication Flow
 *   **User Interaction:** Institutional users access the MemoryChain frontend.
 *   **Login:** Users attempt to log in via the `LoginPage`.
-*   **Authentication Service:** The `Authentication Service` (backend) verifies user credentials, potentially interacting with an external `Identity & Attestation Layer Provider` (e.g., a Verifiable Credential Provider or a LIT-implemented system).
+*   **Authentication Service:** The `Authentication Service` (backend) verifies user credentials by interacting with the **"Credentialing Function SDK"**. This SDK, developed in a separate repository, serves as the external `Identity & Attestation Layer Provider` and is built on Lit Protocol.
 *   **Authorization:** Upon successful authentication, the user gains access to protected routes like the `Admin Dashboard`.
 
 ### 2. Data Ingestion Flow
@@ -102,7 +102,7 @@ graph TD
 ### 4. Editing, Approval & Checking Workflow
 *   **Admin Dashboard:** Institutional administrators can view, edit, and approve metadata for uploaded assets.
 *   **Metadata Service:** Backend service manages updates to metadata in the `PostgreSQL` database.
-*   **Verifiable Credentials:** Upon approval, the `Verifiable Credential Service` (backend) interacts with the `Identity & Attestation Layer Provider` to issue verifiable credentials for the asset, linking its CID and approved metadata.
+*   **Verifiable Credentials:** Upon approval, the `Verifiable Credential Service` (backend) interacts with the **"Credentialing Function SDK"** to issue verifiable credentials for the asset, linking its CID and approved metadata.
 *   **Audit Trail:** All significant actions (upload, metadata edit, approval, VC issuance) are recorded, potentially on a `Blockchain Network` for an immutable audit trail.
 
 ### 5. Semantic Search & Data Interaction
@@ -120,5 +120,5 @@ graph TD
 *   **Decentralized Storage:** IPFS (Helia), Filecoin.
 *   **Blockchain:** Filecoin Blockchain (for storage deals), potentially other Blockchain Networks for audit trails/NFTs.
 *   **AI/LLM:** LLM Models (e.g., OpenAI, Hugging Face, custom), Model Context Protocol (MCP) for orchestration.
-*   **Identity/Auth:** Identity & Attestation Layer Provider (e.g., Verifiable Credential Provider, Lit Protocol).
+*   **Identity/Auth:** The **"Credentialing Function SDK"**, a separate component built with Lit Protocol, will serve as the Identity & Attestation Layer Provider.
 *   **Deployment:** Docker, Nginx.

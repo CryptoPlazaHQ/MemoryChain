@@ -11,10 +11,10 @@ The MVP will focus on the data ingestion and verification workflow for a single 
 The MVP will include the following key features:
 
 *   **User Authentication:** A simple email and password-based authentication system for administrators.
+*   **"Credentialing Function SDK"**: A functional SDK that includes a scalable dashboard interface for credential creation, registration, and authorization.
 *   **Data Ingestion:** A user-friendly interface for uploading digital assets (documents and images).
 *   **Metadata Generation:** A form for manually adding essential metadata to each asset (e.g., title, author, date, description).
 *   **Decentralized Storage:** Automatic upload of assets to IPFS and pinning to a Filecoin storage provider.
-*   **Verifiable Credentials:** Integration with POK Technology to issue a verifiable credential (OpenBadge 3.0) for each asset.
 *   **Public Verification Page:** A simple, publicly accessible page where anyone can verify the authenticity of an asset by scanning a QR code or entering a unique ID.
 *   **Basic Whitelabeling:** The ability to customize the application with an organization's name and logo.
 
@@ -26,7 +26,7 @@ The MVP will be built using the following technology stack:
 *   **Backend:** Node.js (with Express.js)
 *   **Database:** PostgreSQL
 *   **Storage:** IPFS (via a service like Infura or a local node) and Filecoin (via a storage provider).
-*   **Verifiable Credentials:** POK Technology's API.
+*   **Verifiable Credentials:** Lit Protocol.
 
 ## 4. Success Metrics
 

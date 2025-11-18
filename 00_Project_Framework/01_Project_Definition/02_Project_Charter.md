@@ -18,7 +18,7 @@
 
 *   To develop a robust and scalable platform for the secure and permanent storage of historical documents and other valuable data.
 *   To provide a user-friendly interface for data ingestion, metadata generation, and verification.
-*   To establish a strong partnership with POK Technology to leverage their expertise in verifiable credentials.
+*   To integrate a robust verifiable credential solution using Lit Protocol.
 *   To stablish collaborations with human rights organisations, research and development public and private institutions.
 *   To secure funding for the long-term development and expansion of the project.
 
@@ -26,12 +26,13 @@
 
 *   **Phase 1 (Validation):**
     *   Develop a functional mockup of the platform.
-    *   Secure a partnership with POK Technology.
+    *   Develop the "Credentialing Function SDK" as an authorization method, including a scalable dashboard interface.
+    *   Secure a partnership with Lit Protocol.
     *   Successfully run a pilot with 12 historical documents.
 *   **Phase 2 (Core Development):**
     *   Develop the full backend and frontend of the platform.
     *   Onboard 144 historical documents.
-    *   Issue 12 verifiable credentials.
+    *   Issue 12 verifiable credentials using the Credentialing Function SDK.
 *   **Phase 3 (Public Launch):**
     *   Go-live with the CNMH (Centro Nacional de Memoria Histórica).
     *   Go-live with PBI (Peace Brigades International).
@@ -43,8 +44,9 @@
 ### In Scope
 
 *   Development of the MemoryChain platform, including the frontend, backend, and smart contracts.
+*   Development of the "Credentialing Function SDK" and its dashboard interface.
 *   Integration with IPFS and Filecoin for decentralized storage.
-*   Integration with POK Technology for verifiable credentials.
+*   Integration with Lit Protocol for verifiable credentials.
 *   Development of a user-friendly onboarding process.
 *   Creation of documentation for users, developers, and agents.
 
@@ -58,14 +60,14 @@
 
 *   **TechnoPlay:** The sponsoring organization.
 *   **CNMH and PBI:** The initial pilot partners.
-*   **POK Technology:** The technology partner for verifiable credentials.
+*   **Lit Protocol:** The technology partner for verifiable credentials.
 *   **Investors/Donors:** Organizations providing funding for the project.
 *   **End-Users:** Individuals and organizations using the platform to store and verify data.
 
 ## 5. Assumptions
 
 *   The CNMH and PBI will agree to a pilot project.
-*   A partnership with POK Technology can be established.
+*   A partnership with Lit Protocol can be established.
 *   Funding for the project can be secured.
 *   The necessary technical talent can be recruited.
 

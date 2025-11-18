@@ -15,7 +15,7 @@ The scope of the MemoryChain project is to design, develop, and deploy a decentr
 *   **Data Ingestion:** A simple and intuitive interface for uploading digital assets, including documents, images, audio, and video.
 *   **Metadata Generation:** Automatic and manual metadata generation to enrich the data and make it more discoverable.
 *   **Decentralized Storage:** Secure and permanent storage of data on IPFS and Filecoin.
-*   **Verifiable Credentials:** Integration with POK Technology to issue OpenBadge 3.0 compliant verifiable credentials for all assets.
+*   **Verifiable Credentials & Authorization:** A modular and scalable "Credentialing Function SDK" leveraging Lit Protocol to issue verifiable credentials and manage a robust authorization layer. This includes features for credential creation, registration, and integration with open-source authentication standards, with a long-term vision for seamless integration into various platforms, including Learning Management Systems (LMS).
 *   **NFT-based Access Control:** The use of Non-Fungible Tokens (NFTs) to manage access rights and permissions for the data.
 *   **Semantic Search:** An advanced search engine that uses AI and LLMs to enable natural language queries and semantic retrieval of information.
 *   **Whitelabeling:** The ability for organizations to customize the platform with their own branding and workflows.

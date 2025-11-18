@@ -27,7 +27,7 @@ The technology stack for MemoryChain is chosen based on the following core princ
 
 *   **Storage:** IPFS and Filecoin. IPFS for content-addressable storage and Filecoin for long-term persistence.
 *   **Blockchain:** A smart contract-enabled blockchain like Ethereum, Polygon, or a Filecoin Virtual Machine (FVM) compatible chain. The choice of blockchain will be based on factors like transaction costs, scalability, and developer community.
-*   **Authentication & Verifiable Credentials:** Lit Protocol for decentralized access control, key management, and issuing verifiable credentials.
+*   **Authentication & Verifiable Credentials:** This will be handled by a dedicated **"Credentialing Function SDK"**, a key deliverable of the initial project phase. This SDK will be built using **Lit Protocol** for decentralized access control, key management, and issuing verifiable credentials. It will be developed as a standalone component in a separate repository to ensure it is modular, reusable, and can be integrated into other projects.
 
 ### AI & LLMs
 

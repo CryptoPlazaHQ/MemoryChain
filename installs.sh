@@ -1,0 +1,1 @@
+npm install @lit-protocol/lit-node-client @lit-protocol/core @lit-protocol/crypto
