@@ -37,3 +37,6 @@ build
 # Playwright reports
 playwright-report/
 test-results/
+
+# Ignored project folders
+00_Project_Framework/00_Technoplay/
