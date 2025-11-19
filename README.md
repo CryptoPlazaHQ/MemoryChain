@@ -61,9 +61,15 @@ Not sure where to start? The `Sinopsis/README.md` will guide you based on your r
 
 Each path leads you directly to the most relevant "chapters" and documentation for your needs, ensuring an engaging and efficient learning experience.
 
-### **The Intelligent Orchestra: Our Agentic Office**
+### The Intelligent Orchestra: Our Agentic Office
 
 MemoryChain is maintained and enhanced by an **Agentic Office**—a sophisticated network of specialized AI agents. These autonomous entities manage everything from metadata enrichment and quality assurance to project coordination and community engagement. They ensure that this "book" you're reading is accurate, consistent, and always up-to-date, embodying our commitment to automated excellence.
+
+### **Building Blocks for Trust: The CredentiaLit SDK**
+
+Central to MemoryChain's ability to create verifiable trust is the **CredentiaLit SDK**. This standalone, open-source SDK leverages **Lit Protocol** to empower developers with tools for decentralized identity, verifiable credential issuance, and granular access control. It's the critical component for building applications where trust is mathematical, not institutional.
+
+*   **Explore the CredentiaLit SDK's Introduction:** Find its dedicated overview in [`CredentiaLit/Sinopsis/README.md`](./CredentiaLit/Sinopsis/README.md).
 
 * * *
 
