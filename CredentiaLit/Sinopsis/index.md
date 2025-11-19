@@ -24,6 +24,10 @@ Think of this as your essential roadmap to understanding how CredentiaLit unlock
     *   **The Mechanics of Trust: Inside the SDK:** Delves into the primary functionalities of the SDK, explaining how it leverages Lit Protocol to enable verifiable credential issuance, robust verification, and dynamic access control.
     *   _Your Insight: Understand the technical heart of CredentiaLit and its capabilities._
 
+*   **[`Product_Roadmap.md`](../Product_Roadmap.md)**
+    *   **The Journey Ahead: SDK Product Roadmap:** Outlines the strategic phases, key features, and integration milestones for the CredentiaLit SDK's development.
+    *   _Your Vision: Discover where CredentiaLit is headed and how it will evolve._
+
 ## Navigating the CredentiaLit SDK Documentation
 
 This `CredentiaLit/Sinopsis` folder is designed as your initial guide to the SDK. From here, you can choose to delve deeper into specific aspects by following the "Deep Dive" and "Refer to" links embedded within these documents. These will lead you to more detailed technical documentation within the `CredentiaLit/` folder (e.g., `Credential_SDK_Requirements.md`, `Dashboard_UI_UX.md`).
