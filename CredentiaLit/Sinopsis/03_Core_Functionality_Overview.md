@@ -1,15 +1,15 @@
-# 03. CredentiaLit SDK: Core Functionality - The Mechanics of Trust
+# 03. CredentiaLit SDK/App: Core Functionality - The Mechanics of Trust for Institutions
 
 ---
 
-> "At its heart, the CredentiaLit SDK is a cryptographic engine. It transforms claims into verifiable truths, and permissions into undeniable conditions."
-> — _CredentiaLit Technical Design_
+> "At its heart, the CredentiaLit SDK is a cryptographic engine. It transforms claims into verifiable truths, and permissions into undeniable conditions. The CredentiaLit App brings this power to your fingertips."
+> — _CredentiaLit Technical Design Philosophy_
 
-The **CredentiaLit SDK** is engineered to provide developers with a robust, yet intuitive, set of functionalities for implementing decentralized identity and authorization. This chapter delves into the primary capabilities of the SDK, explaining how it leverages Lit Protocol to enable verifiable credential issuance, robust verification, and dynamic access control.
+The **CredentiaLit SDK** is engineered to provide developers with a robust, yet intuitive, set of functionalities for implementing decentralized identity and authorization. The **CredentiaLit App** then layers an accessible management interface on top of these SDK capabilities. This chapter delves into their primary functionalities, explaining how they leverage Lit Protocol to enable verifiable credential issuance, robust verification, and dynamic access control, vital for educational and knowledge-driven institutions.
 
 ## 1. Verifiable Credential Issuance: Crafting Fraud-Proof Educational & Institutional Records
 
-This is the process by which an entity (an educational institution, a corporate HR department, a community, an individual) asserts a claim about another entity (a student, an employee, a user, an asset) and cryptographically signs it. It directly combats **credential fraud and establishes undeniable provenance.**
+This is the process by which an entity (an educational institution, a corporate HR department, a community, an individual) asserts a claim about another entity (a student, an employee, a user, an asset) and cryptographically signs it. The **CredentiaLit SDK/App** directly combats **credential fraud and establishes undeniable provenance** for academic and institutional claims.
 
 *   **Key Functionalities:**
     *   **`issueCredential(issuerDid: string, subjectDid: string, credentialType: string, claims: object, conditions: LitCondition[])`:**
@@ -23,7 +23,7 @@ This is the process by which an entity (an educational institution, a corporate 
 
 ## 2. Credential Verification: Streamlining Institutional Validation & Trust
 
-Verification is the process by which a verifier (an application, another agent, a human, an employer) checks the validity and authenticity of a presented credential. This directly **reduces the administrative burden and costs of verification.**
+Verification is the process by which a verifier (an application, another agent, a human, an employer) checks the validity and authenticity of a presented credential. The **CredentiaLit SDK/App** directly **reduces the administrative burden and costs of verification** for institutions.
 
 *   **Key Functionalities:**
     *   **`verifyCredential(credential: VerifiableCredential) -> VerificationResult`:**

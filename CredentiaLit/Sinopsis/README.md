@@ -5,7 +5,7 @@
 > "The true measure of freedom is not what you are permitted to do, but what you are inherently capable of doing without permission."
 > — _CredentiaLit Protocol Manifesto_
 
-You've discovered the engine of verifiable trust, the key that unlocks a new era of decentralized identity and authorization. The **CredentiaLit SDK** is not merely a tool; it's a **protocol for empowerment**, designed to infuse any application with the architecturally inevitable security and flexibility of Lit Protocol.
+You've discovered the engine of verifiable trust, the key that unlocks a new era of decentralized identity and authorization. The **CredentiaLit SDK and App** is not merely a tool; it's a **protocol for empowerment**, designed to infuse any application with the architecturally inevitable security and flexibility of Lit Protocol.
 
 ### The Problem: When Fragmented Trust Stalls Education and Innovation
 
