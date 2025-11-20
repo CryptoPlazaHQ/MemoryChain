@@ -26,7 +26,11 @@ This repository is your comprehensive guide to the CredentiaLit SDK/App, structu
 *   **`Credential_SDK_Requirements.md`**: The detailed Product Requirements Document (PRD) for the core SDK functionalities.
 *   **`Product_Roadmap.md`**: Outlines the strategic development phases and agile methodology for the SDK/App.
 *   **`Dashboard_UI_UX.md`**: The PRD for the CredentiaLit App's management dashboard, detailing its features for connecting with platforms like Moodle and MemoryChain, and supporting N8N integrations.
-*   **`/Use_Cases`**: Specific examples of CredentiaLit in action, such as the `N8N_Financial_Role_Integration.md`.
+*   **`/Use_Cases`**: This folder contains detailed examples of CredentiaLit in action, organized by category:
+    *   **[`/Use_Cases/Education_Knowledge_Management`](./Use_Cases/Education_Knowledge_Management/README.md)**
+    *   **[`/Use_Cases/Community_Platform_Engagement`](./Use_Cases/Community_Platform_Engagement/README.md)**
+    *   **[`/Use_Cases/Workflow_Automation`](./Use_Cases/Workflow_Automation/README.md)**
+    *   **[`/Use_Cases/Data_Monetization_Access_Control`](./Use_Cases/Data_Monetization_Access_Control/README.md)**
 
 ### Ready to Build a Verifiable Future?
 
