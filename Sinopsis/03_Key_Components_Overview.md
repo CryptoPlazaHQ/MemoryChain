@@ -25,45 +25,47 @@ This is where the raw bits of humanity's memory find their eternal home.
     *   **Why it matters:** Guarantees persistence. Storage providers are economically incentivized (they stake collateral) to prove they're storing your data correctly. It's resilient against single points of failure, censorship, and institutional bankruptcy.
     *   **Deep Dive:** Refer to `00_Project_Framework/Logic/1.Concept/README.md` (Pillar I) and `00_Project_Framework/01_Project_Definition/03_Technology_Stack.md`.
 
-### 2. Identity & Trust: The Guardians of Provenance
 
-Knowing a file exists is one thing; knowing who vouches for it and who can access it is another.
 
-*   **Lit Protocol & the Credentialing Function SDK:**
-    *   **Role:** The backbone of decentralized identity, verifiable credentials, and granular access control. Our **Credentialing Function SDK** (a dedicated, reusable component) leverages Lit Protocol's Programmable Key Pairs (PKPs) to issue cryptographically verifiable digital credentials.
-    *   **Why it matters:** Empowers users and institutions with self-sovereign control over their digital identities and data. It provides irrefutable proof of provenance ("who said what about this file, and when?"), enabling condition-based access rules (e.g., "only researchers from X university can view this for 24 hours").
-    *   **Deep Dive:** Refer to `00_Project_Framework/Logic/1.Concept/README.md` (Pillar III), `prd/` folder (for SDK details), and `00_Project_Framework/01_Project_Definition/03_Technology_Stack.md`.
+### 2. Identity & Trust: The Guardians of Educational Provenance and Access
 
-### 3. Frontend: The Intuitive Gateway
+Knowing a file exists is one thing; knowing who vouches for its origin and who can securely access it is another. This directly addresses **credential fraud and administrative burden.**
 
-This is the face of MemoryChain, where complex decentralized power meets human usability.
+*   **Lit Protocol & the CredentiaLit SDK/App:**
+    *   **Role:** The backbone of decentralized identity, verifiable credentials, and granular access control. Our **CredentiaLit SDK** (a dedicated, reusable component, now found in `CredentiaLit/`) leverages Lit Protocol's Programmable Key Pairs (PKPs) to issue cryptographically verifiable digital credentials. The **CredentiaLit App** provides an intuitive management dashboard for these operations.
+    *   **Why it matters:** **Empowers students with self-sovereign ownership of their academic records** and institutions with fraud-proof credentialing. It provides irrefutable proof of provenance ("who attested to this achievement, and when?"), enabling precise, condition-based access rules (e.g., "only faculty can view this sensitive research data"). This dramatically **reduces administrative overhead for verification and combats credential fraud.**
+    *   **Deep Dive:** Refer to `00_Project_Framework/Logic/1.Concept/README.md` (Pillar III), `CredentiaLit/` folder (for SDK details, including `CredentiaLit/Credential_SDK_Requirements.md` and `CredentiaLit/Dashboard_UI_UX.md`), and `00_Project_Framework/01_Project_Definition/03_Technology_Stack.md`.
+
+### 3. Frontend: The Intuitive Gateway for Institutional Users
+
+This is the accessible face of MemoryChain, where complex decentralized power meets human usability for educators, archivists, and administrators.
 
 *   **React (with Vite) & UI/UX Design:**
-    *   **Role:** Our web application, built with React, provides intuitive dashboards for institutions to upload assets, manage metadata, and interact with the archive. A clean, modern UI/UX ensures accessibility.
-    *   **Why it matters:** Bridging the gap between cutting-edge Web3 technologies and everyday usability. The UI is designed for clarity, trust, and efficiency, making the powerful backend accessible to non-technical users.
+    *   **Role:** Our web application, built with React, provides intuitive dashboards for institutions to upload assets, manage metadata, and interact with the archive. A clean, modern UI/UX ensures accessibility for institutional workflows.
+    *   **Why it matters:** Bridges the gap between cutting-edge Web3 technologies and everyday usability. The UI is designed for clarity, trust, and efficiency, **minimizing training burden and maximizing adoption within institutions.**
     *   **Deep Dive:** Refer to `00_Project_Framework/Logic/2.Project_MockUp/README.md` for our visual design philosophy and user journeys, and `01_MVP/04_Technical_Considerations.md` for specific frontend choices.
 
-### 4. Backend: The Orchestration Layer
+### 4. Backend: The Orchestration Layer for Secure Operations
 
-The invisible engine that connects everything, making it all work seamlessly.
+The invisible engine that connects everything, making it all work seamlessly and securely for institutional operations.
 
 *   **Node.js / Express.js (TypeScript) & Microservices:**
-    *   **Role:** Our backend microservices coordinate interactions between the frontend, databases, decentralized storage, and AI agents. It's responsible for managing metadata, initiating Filecoin deals, and interacting with the Credentialing SDK.
-    *   **Why it matters:** Provides a scalable, robust, and maintainable foundation for the application. TypeScript ensures code quality and reduces errors in a complex distributed system.
+    *   **Role:** Our backend microservices coordinate interactions between the frontend, databases, decentralized storage, and AI agents. It's responsible for managing metadata, initiating Filecoin deals, and interacting with the CredentiaLit SDK.
+    *   **Why it matters:** Provides a scalable, robust, and maintainable foundation for the application. TypeScript ensures code quality and reduces errors in a complex distributed system, **ensuring reliable operations for mission-critical institutional data.**
     *   **Deep Dive:** Refer to `00_Project_Framework/Logic/3.Technical_Strategy/README.md` and `00_Project_Framework/01_Project_Definition/04_Technical_Architecture_Summary.md`.
 
-### 5. AI & Agents: The Intelligent Archival Crew
+### 5. AI & Agents: The Intelligent Archival Crew for Knowledge Management
 
-This is where the archive truly becomes "living" and "intelligent."
+This is where the archive truly becomes "living" and "intelligent," transforming raw data into actionable knowledge for institutions.
 
 *   **LLMs & Model Context Protocol (MCP) & Specialized Agents:**
     *   **Role:** AI agents, driven by Large Language Models, autonomously perform tasks like metadata enrichment, content curation, semantic search, and quality assurance. They communicate via the MCP, allowing LLMs to use specialized tools and interact with the archive's data.
-    *   **Why it matters:** Transforms passive data into active knowledge. Agents automate laborious archival tasks, making content discoverable through natural language queries and ensuring data quality at scale.
+    *   **Why it matters:** Transforms passive data into active knowledge. Agents automate laborious archival tasks, making content discoverable through natural language queries and ensuring data quality at scale, directly addressing **inefficient knowledge management and fragmented data.**
     *   **Deep Dive:** Refer to `00_Project_Framework/Logic/1.Concept/README.md` (Pillar II) and the entire `02_Agents/` directory for profiles of our autonomous workforce.
 
-## The Interplay: More Than the Sum of Its Parts
+## The Interplay: More Than the Sum of Its Parts – A Holistic Institutional Solution
 
-These components don't operate in isolation. They are intricately woven together, creating a resilient, intelligent, and verifiable system. The frontend guides the user, the backend orchestrates the process, decentralized storage ensures permanence, Lit Protocol guarantees trust, and AI agents breathe intelligence into every interaction. This is the holistic architecture of MemoryChain.
+These components don't operate in isolation. They are intricately woven together, creating a resilient, intelligent, and verifiable system specifically designed to meet the rigorous demands of educational and knowledge-driven institutions. The frontend guides the user, the backend orchestrates the process, decentralized storage ensures permanence, CredentiaLit guarantees trust in identity and access, and AI agents breathe intelligence into every interaction, providing a **holistic solution to digital amnesia and trust deficits.**
 
 ---
 _For a detailed look at any specific component, follow the "Deep Dive" links provided. Each will lead you to a dedicated chapter in our repository-as-a-book._

@@ -18,6 +18,16 @@ To build an SDK that is not only robust and secure but also intuitive and highly
 3.  **Ecosystem Interoperability:** Enabling easy integration with existing platforms (LMS, Discord) and emerging agentic frameworks (N8N).
 4.  **Value Creation:** Facilitating new models for knowledge management, monetization, and community engagement.
 
+## Development Process: Our Agile Journey
+
+Building a foundational SDK for verifiable trust demands agility, responsiveness, and continuous collaboration. The CredentiaLit SDK/App development follows an **Agile methodology**, specifically leveraging a **Scrum-like framework** to ensure iterative progress and adapt quickly to evolving requirements and ecosystem feedback.
+
+*   **Sprints:** Development is organized into regular, fixed-length sprints (e.g., 2-week cycles).
+*   **Backlog & Prioritization:** Features and requirements (from `CredentiaLit/Credential_SDK_Requirements.md`) are managed in a prioritized product backlog.
+*   **Daily Scrums:** Brief daily stand-ups ensure team alignment and identify immediate blockers.
+*   **Continuous Feedback:** Integration with the MemoryChain Agentic Office (e.g., `Testr`, `Docu`, `Stylr` agents) provides continuous quality assurance, and community engagement via `Connectr` ensures user feedback is incorporated rapidly.
+*   **Iterative Releases:** New functionalities and improvements are delivered in incremental releases, allowing for early testing and validation.
+
 ## Product Roadmap Phases: The Journey Ahead
 
 ### Phase 1: Foundation & Developer Primitives (Current - Q4 2025 / Q1 2026)
