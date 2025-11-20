@@ -32,6 +32,15 @@ Think of this as your essential roadmap to understanding how CredentiaLit unlock
     *   **The Journey Ahead: SDK/App Product Roadmap:** Outlines the strategic phases, key features, and integration milestones for the CredentiaLit SDK/App's development, including its agile development process.
     *   _Your Vision: Discover where CredentiaLit is headed and how it will evolve._
 
+## Exploring CredentiaLit Use Cases: The Pillars of Application
+
+Dive into specific application domains to see how CredentiaLit transforms real-world challenges into verifiable opportunities:
+
+*   **Pillar I: [`Education & Knowledge Management`](../Use_Cases/Education_Knowledge_Management/README.md)**: Transform academic integrity and student empowerment.
+*   **Pillar II: [`Community & Platform Engagement`](../Use_Cases/Community_Platform_Engagement/README.md)**: Build secure, verifiable, and dynamic social trust infrastructure.
+*   **Pillar III: [`Workflow Automation`](../Use_Cases/Workflow_Automation/README.md)**: Orchestrate auditable, verifiable, and secure business processes with N8N.
+*   **Pillar IV: [`Data Monetization & Access Control`](../Use_Cases/Data_Monetization_Access_Control/README.md)**: Empower creators and institutions to monetize knowledge ethically and transparently.
+
 ## Navigating the CredentiaLit SDK Documentation
 
 This `CredentiaLit/Sinopsis` folder is designed as your initial guide to the SDK. From here, you can choose to delve deeper into specific aspects by following the "Deep Dive" and "Refer to" links embedded within these documents. These will lead you to more detailed technical documentation within the `CredentiaLit/` folder (e.g., `Credential_SDK_Requirements.md`, `Dashboard_UI_UX.md`).
